@@ -1,4 +1,3 @@
-/* начало блока header */
 .header {
   display: grid;
   align-items: center;
@@ -137,12 +136,12 @@ text-underline-offset: 4px;
 }
 
 .lots {
-  padding: 179px 32px 0px 13px
+  padding: 179px 24px 0px 25px;
 }
 
 .lots__heading {
-  margin-bottom: 18px;
-  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-left: 39px;
   font-weight: 700;
   font-size: 40px;
   line-height: normal;
@@ -151,20 +150,21 @@ text-underline-offset: 4px;
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 27px;
   list-style: none;
 }
 
 .lots__card-list-item {
-  flex: 1 0 auto;
+  flex: 1 0 0%;
   width: 334px;
   min-height: 563px;
 }
 
 .lots__look-more-link {
-  padding-left: 52px;
+  padding-left: 39px;
   color: black;
   font-size: 20px;
   font-weight: 400;
@@ -178,7 +178,7 @@ text-underline-offset: 4px;
   width: 100%;
   height: 100%;
   text-decoration: none;
-  margin: 10px
+  margin: -2px
 }
 
 
@@ -301,11 +301,10 @@ text-underline-offset: 4px;
 }
 
 .footer__social-list {
-  display: grid;
+  display: flex;
   align-items: center;
   justify-self: end;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px 48px;
+  gap: 48px;
   max-width: 240px;
   list-style: none;
 }
